@@ -22,58 +22,72 @@ class Teacher(Person):
   def __init__(self):
     super().__init__("Teacher")
 
+  def give_grade(self, human):
+    human.grade += 1
+
 student = Student()
 
 
-student.study()
 
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
-
-student.study()
-
-print(student.grade)
 
 teacher = Teacher()
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+teacher.give_grade(student)
+
+print(student.grade)
+
+
+
+
+
+
+
+
+
 
 teacher.teach()
 
